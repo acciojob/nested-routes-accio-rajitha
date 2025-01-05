@@ -1,13 +1,13 @@
 /// <reference types="cypress" />
 
-//context('Local Storage', () => {
- // beforeEach(() => {
-   // cy.visit('https://example.cypress.io/commands/local-storage')
-  //})
+context('Local Storage', () => {
+  beforeEach(() => {
+    cy.visit('https://example.cypress.io/commands/local-storage')
+  })
   context('Local Storage', () => {
     beforeEach(() => {
       cy.visit('http://localhost:8080/local-storage-test'); // Update this with your local app's URL
-    })
+    });
   // Although local storage is automatically cleared
   // in between tests to maintain a clean state
   // sometimes we need to clear the local storage manually
