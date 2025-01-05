@@ -12,9 +12,9 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} /> {/* Landing page */}
-            <Route path="women" element={<Category />} /> {/* Women Category Page */}
-            <Route path="women/:item" element={<Item />} /> {/* Item Page */}
+            <Route index element={<Home />} /> 
+            <Route path="women" element={<Category />} /> 
+            <Route path="women/:item" element={<Item />} /> 
           </Route>
         </Routes>
       </div>
@@ -23,18 +23,3 @@ const App = () => {
 };
 
 export default App;
-
-/*
-import React from "react";
-import './../styles/App.css';
-
-const App = () => {
-  return (
-    <div>
-       
-    </div>
-  )
-}
-
-export default App
-*/

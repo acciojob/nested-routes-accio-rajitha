@@ -15,7 +15,7 @@ function Layout() {
         </ul>
       </nav>
      
-      <Outlet /> {/* Renders the nested components */}
+      <Outlet /> 
     </div>
   );
 }

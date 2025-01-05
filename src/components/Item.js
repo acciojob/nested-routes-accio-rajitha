@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 function Item() {
-  const { item } = useParams(); // Extracts the item name from the URL
+  const { item } = useParams(); 
 
   return (
     <div>
